@@ -45,13 +45,13 @@ public class MyPagerAdapter extends FragmentPagerAdapter implements
 	{	
 		if (positionOffset >= 0f && positionOffset <= 1f)
 		{
-			cur = getRootView(position);
-			next = getRootView(position +1);
+		        cur = getRootView(position);
+        		cur.setScaleBoth(MainActivity.BIG_SCALE - MainActivity.DIFF_SCALE * positionOffset);
 
-			cur.setScaleBoth(MainActivity.BIG_SCALE 
-					- MainActivity.DIFF_SCALE * positionOffset);
-			next.setScaleBoth(MainActivity.SMALL_SCALE 
-					+ MainActivity.DIFF_SCALE * positionOffset);
+        		if (position < MainActivity.PAGES-1) {
+        			next = getRootView(position +1);
+        			next.setScaleBoth(MainActivity.SMALL_SCALE + MainActivity.DIFF_SCALE * positionOffset);
+        		}
 		}
 	}
 
