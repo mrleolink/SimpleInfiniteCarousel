@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="420dpi"
+    format="7"
+    timestamp="103243639664170"
+    token="-6290434113889080656"
+    verifier="IMPLEMENTED_INTERFACES_CHANGE" >
+
+    <task
+        name="javac"
+        duration="209" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="38" />
+    <task
+        name="verifier"
+        duration="2" />
+
+    <artifact
+        location="/Users/linh.le/Google Drive/Workspace/workspace-Android-Studio/SimpleInfiniteCarousel/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+        type="DEX" />
+
+    <build timestamp="102453407159718" >
+        <artifact
+            location="/Users/linh.le/Google Drive/Workspace/workspace-Android-Studio/SimpleInfiniteCarousel/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="103243639664170"
+        verifier="IMPLEMENTED_INTERFACES_CHANGE" >
+        <artifact
+            location="/Users/linh.le/Google Drive/Workspace/workspace-Android-Studio/SimpleInfiniteCarousel/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

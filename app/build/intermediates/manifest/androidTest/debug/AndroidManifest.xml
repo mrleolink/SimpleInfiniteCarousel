@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.leolink.android.simpleinfinitecarousel.test">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="9" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="net.leolink.android.simpleinfinitecarousel"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for net.leolink.android.simpleinfinitecarousel"/>
+</manifest>
